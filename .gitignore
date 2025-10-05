@@ -1,0 +1,166 @@
+# Flutter/Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+linked_*.ds
+unlinked.ds
+unlinked_spec.ds
+
+# Coverage
+coverage/
+
+# Android specific
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+*.jks
+
+# iOS specific
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS specific
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/ephemeral/
+
+# Web specific
+lib/generated_plugin_registrant.dart
+
+# Windows specific
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/flutter/generated_plugin_registrant.h
+
+# Linux specific
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugin_registrant.h
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.gr.dart
+*.config.dart
+*.mocks.dart
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# API keys and secrets
+secrets.json
+api_keys.dart
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# Backup files
+*.bak
+*.backup
+
+# Package files
+*.apk
+*.ipa
+*.deb
+*.rpm
+*.dmg
+*.pkg
+*.msi
+
+# Certificate files
+*.p12
+*.pem
+*.crt
+*.key
+
+# Provisioning profiles
+*.mobileprovision
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# CI/CD
+.cirrus.yml
+.travis.yml
+.github/
+.gitlab-ci.yml
+bitbucket-pipelines.yml
+
+# Code coverage
+lcov.info
+coverage.lcov
+
+# Test results
+test_results/
+junit.xml
+
+# Documentation
+doc/api/
+.dartdoc_coverage
+
+# Custom
+/secrets/
+/config/local.json
+/backup/
+/dist/
+/archive/
